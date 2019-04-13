@@ -1,8 +1,6 @@
 #include "BSPParser.h"
 #include <iostream>
 
-BSPParser* g_pBSP = new BSPParser;
-
 BSPParser::~BSPParser() { }
 
 void BSPParser::Unload()
