@@ -25,7 +25,7 @@ namespace Offsets
             dwClientState_ViewAngles = SharedDefines::memory.FindPattern("engine", "\xF3\x0F\x11\x80\x00\x00\x00\x00\xD9\x46\x04\xD9\x05", "xxxx????xxxxx", 4, 0, false);
             dwClientState_Map = SharedDefines::memory.FindPattern("engine", "\x05\x00\x00\x00\x00\xC3\xCC\xCC\xCC\xCC\xCC\xCC\xCC\xA1", "x????xxxxxxxxx", 1, 0, false);
 
-            std::cout << "OffsetName               : " << "Expected" << " / " << "Actual" << std::endl;
+            /*std::cout << "OffsetName               : " << "Expected" << " / " << "Actual" << std::endl;
             std::cout << "dwLocalPlayer            : " << dwLocalPlayer << " / " << DWORD(0xCD2764) << std::endl;
             std::cout << "dwGlobalVars             : " << dwGlobalVars << " / " << DWORD(0x58BA00) << std::endl;
             std::cout << "dwEntityList             : " << dwEntityList << " / " << DWORD(0x4CE34DC) << std::endl;
@@ -33,7 +33,7 @@ namespace Offsets
             std::cout << "dwGlowObjectManager      : " << dwGlowObjectManager << " / " << DWORD(0x5223730) << std::endl;
             std::cout << "dwForceAttack            : " << dwForceAttack << " / " << DWORD(0x3114BA4) << std::endl;
             std::cout << "dwClientState_ViewAngles : " << dwClientState_ViewAngles << " / " << DWORD(0x4D88) << std::endl;
-            std::cout << "dwClientState_Map        : " << dwClientState_Map << " / " << DWORD(0x28C) << std::endl;
+            std::cout << "dwClientState_Map        : " << dwClientState_Map << " / " << DWORD(0x28C) << std::endl;*/
 
             // Check everything
             return !(dwLocalPlayer == 0 || dwGlobalVars == 0 || dwEntityList == 0 || dwClientState == 0 ||

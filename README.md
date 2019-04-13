@@ -16,7 +16,7 @@ Currently we need a few features to make the cheat complete:
 * Hitbox triggerbot (https://www.unknowncheats.me/forum/counterstrike-global-offensive/158860-external-hitbox-manager-dymanically.html)
 * Set ViewAngles by moving the mouse, not writing to memory
 * Calculate inaccuracy for triggerbot (and maybe aimbot)
-* Parse models in BSP parsing (https://developer.valvesoftware.com/wiki/Collision_mesh)
+* Parse models in BSP parsing (https://www.unknowncheats.me/forum/counterstrike-global-offensive/170316-reversing-phy-files-collision-models-static-props.html)
 * Mac OS support
 * Linux support
 * Get into Ring 0
