@@ -11,10 +11,12 @@ External CSGO Hack for Windows 10.
 ## Todo
 Currently we need a few features to make the cheat complete:
 
-* Configuration, preferably form. Temporary solution might be JSON.
+* Configuration, preferably form. Temporary solution might be JSON. (https://github.com/ocornut/imgui)
 * Netvar scanning (https://www.unknowncheats.me/forum/counterstrike-global-offensive/129348-netvars-dumping-external.html)
 * Hitbox triggerbot (https://www.unknowncheats.me/forum/counterstrike-global-offensive/158860-external-hitbox-manager-dymanically.html)
 * Set ViewAngles by moving the mouse, not writing to memory
+* Calculate inaccuracy for triggerbot (and maybe aimbot)
+* Parse models in BSP parsing (https://developer.valvesoftware.com/wiki/Collision_mesh)
 * Mac OS support
 * Linux support
 * Get into Ring 0
