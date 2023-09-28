@@ -1,8 +1,10 @@
 # CSGO Hack
 External CSGO Hack for Windows 10.
 
+Now that CS2 is out I felt that it was a great time to make this hack public so that others may learn the basic concepts of FPS hacking.
+
 ## Features
-* Aimbot
+* Aimbot (human like mouse movement utilizing LERP)
 * Wallhack
 * Triggerbot
 * External visual check (BSP parsing)
